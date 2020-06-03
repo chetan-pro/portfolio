@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <nav >
+        <div id="logo">&</div>
+        <ul >
+            <li><a href="#">Home</a></li>
+            <li><a href="#aboutsec">About</a></li>
+            <li><a href="#servicesec">Services</a></li>
+            <li><a href="#Portfoliosec">Portfolio</a></li>
+            <li><a href="#contactsec">Contact me</a></li>
+        </ul>
+        <div id="bars" ><i class="fa fa-bars"></i></div>
+    </nav>
+
+    <div id="midsec">
+        <div id="mainsec">
+            <h5>Welcome To My Website</h5>
+            <h1>I am <span id="changes"></span> <br>Chetan Sable</h1>
+            <div class="btn">
+                <li type="button" id="btn1" class="btnb">Read More</button>
+                <li type="button" id="btn2" class="btnb">Hire Me</button>
+            </div>
+        </div>
+        <div id="imgsec"><img src="one.png" alt=""></div>
+    </div>
+
+    <div id="aboutsec">
+        <div id="aboutimgsec"><img src="two.png" alt=""></div>
+        <div id="aboutmainsec">
+            <h1>About me</h1>
+            <h5>Let me introduce my self</h5>
+            <p>I am a frontend web developer. I am pursuing b-tech with Cs Branch. As I am fresher, I assure you that i
+                will give my best and work to my full potential so that i can contibute as much as i can towards your
+                work .</p>
+            <h6>Contact no. = 7024124397</h6>
+            <button>Know More</button>
+            <div id="social">
+                <div id="fb" class="icon"><i class="fa fa-facebook"></i></div>
+                <div id="insta" class="icon"><i class="fa fa-instagram"></i></div>
+                <div id="beh" class="icon"><i class="fa fa-behance"></i></div>
+                <div id="git" class="icon"><i class="fa fa-github"></i></div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="servicesec">
+        <h1>Services</h1>
+        <p>we provide you work as you want.</p>
+        <div id="servicecard">
+            <div class="box">
+                <i class="fa fa-mobile"></i>
+                <h2>Ui/Ux Designer</h2>
+                <p>Free resource that will help  design process and improve theroi nderstand the design
+                    process  are of quality.</p>
+            </div>
+            <div class="box">
+                <i class="fa fa-laptop"></i>
+                <h2>Web Designer</h2>
+                <p>It is not because things are difficult that we do not dare; it is because we do not dare that they
+                    are difficult.</p>
+            </div>
+            <div class="box">
+                <i class="fa fa-tablet"></i>
+                <h2>Web Developer</h2>
+                <p>If you are an entrepreneur, you know that your success cannot depend on the opinions of others. Like
+                    the wind.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="Portfoliosec">
+        <h1>Portfolio</h1>
+        <div id="filter">
+            <li type="button" data-target="all" class=" btns active">All</li>
+            <li type="button" data-target="ui/ux" class="btns">Ui/Ux</li>
+            <li type="button" data-target="webdesign" class="btns">Web Design</li>
+            <li type="button" data-target="websites" class="btns">Websites</li>
+        </div>
+        <div id="portfolio-item">
+            <div class="portfolio-inner" data-id="webdesign">
+                <div class="portfolio-img">
+                    <img src="1.jpg" alt="">
+                </div>
+                <div class="portfolio-info">
+                    <h4>Ui/Ux Design</h4>
+                    <div class="Port-icon">
+                        <i class="fa fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-inner" data-id="websites">
+                <div class="portfolio-img">
+                    <img src="6.png" alt="">
+                </div>
+                <div class="portfolio-info">
+                    <h4>Web Design</h4>
+                    <div class="Port-icon">
+                        <i class="fa fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-inner" data-id="websites">
+                <div class="portfolio-img">
+                    <img src="3.png" alt="">
+                </div>
+                <div class="portfolio-info">
+                    <h4>Templates</h4>
+                    <div class="Port-icon">
+                        <i class="fa fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-inner" data-id="webdesign">
+                <div class="portfolio-img">
+                    <img src="4.png" alt="">
+                </div>
+                <div class="portfolio-info">
+                    <h4>Web Design</h4>
+                    <div class="Port-icon">
+                        <i class="fa fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-inner" data-id="ui/ux">
+                <div class="portfolio-img">
+                    <img src="5.jpg" alt="">
+                </div>
+                <div class="portfolio-info">
+                    <h4>Ui/Ux Design</h4>
+                    <div class="Port-icon">
+                        <i class="fa fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-inner" data-id="ui/ux">
+                <div class="portfolio-img">
+                    <img src="2.jpg" alt="">
+                </div>
+                <div class="portfolio-info">
+                    <h4>Web Design</h4>
+                    <div class="Port-icon">
+                        <i class="fa fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="portfolio-inner" data-id="ui/ux">
+                    <div class="portfolio-img">
+                        <img src="7.png" alt="">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Ui/Ux Design</h3>
+                        <div class="Port-icon">
+                            <i class="fa fa-plus"></i>
+                        </div>
+                    </div>
+                </div> -->
+        </div>
+
+    </div>
+
+    <div id="contactsec">
+        <h1>Contact me</h1>
+        <div id="contact">
+            <div id="call"><i class="fa fa-phone"></i>
+            <h6><span> Call me</span> <br>7024124397</h6>
+            </div>
+            <div id="call">
+                <i class="fa fa-envelope"></i>
+                <h6><span> Email id</span> <br> Sablechetan8789@gmail.com</h6>
+            </div>
+        </div>
+        <form action="post">
+            <div id="row">
+            <input type="text" placeholder="Name*">
+            <input type="email" placeholder="Email*">
+        </div>
+        <input type="text" placeholder="Subject*">
+        <textarea name="" id="" cols="1" rows="5" placeholder="Your message.."></textarea>        
+        </form>
+    </div>
+
+    <div id="footer">
+        <p>Copyright ©2020 All rights reserved <br> This template is made by Chetan Sable.</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+    integrity="sha256-jDnOKIOq2KNsQZTcBTEnsp76FnfMEttF6AV2DF2fFNE=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
